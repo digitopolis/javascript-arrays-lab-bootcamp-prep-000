@@ -20,7 +20,7 @@ function destructivelyRemoveFirstKitten () {
 }
 
 function appendKitten(name) {
-  kittens.splice(kittens.length, 0, 'Broom');
+  kittens.splice(kittens.length, 1, 'Broom');
   return kittens;
 }
 
